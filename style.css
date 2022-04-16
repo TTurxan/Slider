@@ -1,0 +1,62 @@
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popap {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #000000f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.popap .inner {
+  border: 10px solid white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.popap .inner .cancel i {
+  position: absolute;
+  color: red;
+  font-size: 25px;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.popap .previos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 94%;
+  top: 50%;
+  left: 3%;
+}
+
+.popap .previos i {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
